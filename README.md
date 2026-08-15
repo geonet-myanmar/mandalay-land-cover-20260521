@@ -111,7 +111,7 @@ If you use this repository, please cite the code and the upstream data:
 
 ```text
 Sentinel-2 unsupervised land-cover mapping (2026).
-https://github.com/mrtinkooo/experiment-hub
+github.com/geonet-myanmar/mandalay-land-cover-20260521
 ```
 
 A machine-readable record is in [`CITATION.cff`](CITATION.cff).
@@ -131,7 +131,7 @@ Code in this repository is released under the [MIT License](LICENSE). Sentinel-2
 If this tree is already a git repository, create the GitHub remote with the [GitHub CLI](https://cli.github.com/):
 
 ```bash
-gh repo create experiment-hub --public --source=. --remote=origin --push
+gh repo create mandalay-land-cover-20260521 --public --source=. --remote=origin --push
 ```
 
 Update the clone URL in this README and in `CITATION.cff` if you use a different repository name.
