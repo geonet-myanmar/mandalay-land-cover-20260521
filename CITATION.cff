@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: Sentinel-2 unsupervised land-cover mapping
+message: If you use this repository, please cite it and the Copernicus Sentinel-2 source data.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-05-21"
+abstract: >
+  Reproducible workflow that downloads Sentinel-2 MSI Level-2A imagery from the
+  Microsoft Planetary Computer, performs unsupervised k-means land-cover
+  classification, and exports a publication-ready map. The default case study
+  covers the Mandalay region, Myanmar, using the 21 May 2026 acquisition.
+repository-code: https://github.com/mrtinkooo/experiment-hub
+authors:
+  - family-names: Oo
+    given-names: Tin Ko
+    alias: mrtinkooo
+keywords:
+  - Sentinel-2
+  - land cover
+  - k-means
+  - Planetary Computer
+  - remote sensing
+  - Myanmar
+references:
+  - type: data
+    title: Sentinel-2 Level-2A
+    publisher:
+      name: European Space Agency / Copernicus
+    notes: Contains modified Copernicus Sentinel data (2026).
+  - type: generic
+    title: Microsoft Planetary Computer STAC API
+    url: https://planetarycomputer.microsoft.com/

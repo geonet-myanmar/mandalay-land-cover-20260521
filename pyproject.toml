@@ -1,0 +1,18 @@
+[project]
+name = "s2-landcover"
+version = "1.0.0"
+description = "Unsupervised Sentinel-2 L2A land-cover classification via Microsoft Planetary Computer."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Tin Ko Oo" }]
+keywords = ["sentinel-2", "land-cover", "k-means", "planetary-computer", "remote-sensing"]
+
+[project.urls]
+Homepage = "https://github.com/mrtinkooo/experiment-hub"
+Documentation = "https://github.com/mrtinkooo/experiment-hub#readme"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

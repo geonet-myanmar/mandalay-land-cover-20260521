@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local env
+.env
+.env.*
+
+# Session / agent scratch (do not publish)
+copilot-session-*.md
+.copilot/
+
+# Geospatial intermediates
+*.npz
+*.aux.xml
+*.tfw
+.cache/
+tmp/
+temp/
+
+# Keep published products; ignore extra local runs
+outputs/custom/
+outputs/*.png
+outputs/*.tif.aux.xml
