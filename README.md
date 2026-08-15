@@ -126,16 +126,6 @@ A machine-readable record is in [`CITATION.cff`](CITATION.cff).
 
 Code in this repository is released under the [MIT License](LICENSE). Sentinel-2 imagery remains subject to the Copernicus Sentinel data terms. Microsoft Planetary Computer terms apply to access via their API.
 
-## Publishing this repository
-
-If this tree is already a git repository, create the GitHub remote with the [GitHub CLI](https://cli.github.com/):
-
-```bash
-gh repo create mandalay-land-cover-20260521 --public --source=. --remote=origin --push
-```
-
-Update the clone URL in this README and in `CITATION.cff` if you use a different repository name.
-
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
